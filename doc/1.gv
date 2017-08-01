@@ -1,0 +1,18 @@
+
+digraph demo
+{
+  node[fontname=SimSun];
+  edge[fontname=FangSong];
+
+
+  "根"->"DXRedist"
+  "根"->"VCRedist"
+  "根"->"bin"
+
+  "根"->"data"
+  "根"->"mods"
+
+  "DXRedist"[color=lightblue,style=filled]
+  "VCRedist"[color=lightblue,style=filled]
+  "bin"[color=lightblue,style=filled]
+}
