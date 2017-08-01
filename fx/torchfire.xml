@@ -1,0 +1,1 @@
+<Atlas><Texture filename="data/fx/torchfire.tex" /><Elements><Element name="torch4.png" u1="0.75" u2="1.0" v1="0.5" v2="1.0" /><Element name="torch3.png" u1="0.5" u2="0.75" v1="0.5" v2="1.0" /><Element name="torch2.png" u1="0.25" u2="0.5" v1="0.5" v2="1.0" /><Element name="torch1.png" u1="0.0" u2="0.25" v1="0.5" v2="1.0" /></Elements></Atlas>
