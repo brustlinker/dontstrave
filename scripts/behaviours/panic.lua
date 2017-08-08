@@ -16,7 +16,9 @@ function Panic:Visit()
     end
 end
 
+--选择一个新方向奔跑
 function Panic:PickNewDirection()
     self.inst.components.locomotor:RunInDirection(math.random()*360)
+    --设置下一次更新方向时间
     self.waittime = GetTime() + 0.25 + math.random()*0.25
 end
